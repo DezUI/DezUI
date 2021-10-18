@@ -303,7 +303,7 @@ nav section.navbar-section a {
 nav section.navbar-section .navbar-logo {
   font-size: 2rem;
   display: flex;
-  font-family: "MD Serif Display";
+  font-family: "MD Serif Display" !important;
   color: #252336;
   font-weight: 600;
   gap: 20px;
