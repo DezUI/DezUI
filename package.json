@@ -1,5 +1,5 @@
 {
-  "name": "@dezui/dezui",
+  "name": "dezui",
   "version": "1.0.0",
   "description": "CSS Framework",
   "main": "css/core.css",
