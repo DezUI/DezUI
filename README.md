@@ -20,7 +20,7 @@ DezUI/
 ├── css/
 │   └── core.css
 └── assets/
-	└── dotted.svg
+    └── dotted.svg
 ```
 
 ## Getting started
@@ -28,7 +28,8 @@ DezUI/
 ### Install manual
 [Download the zip](https://github.com/dezui/dezui/archive/refs/heads/stable.zip)
 ```html
-<link rel="stylesheet" href="./css/core.css">
+<link rel="stylesheet" href="/css/core.css">
+<link rel="stylesheet" href="/css/core.min.css">
 ```
 ### Clone the repo:
 ```bash
@@ -38,6 +39,7 @@ git clone https://github.com/dezui/dezui.git
 ##### CDN RawGit
 ```html
 <link rel="stylesheet" href="https://ghcdn.rawgit.org/dezui/DezUI/stable/css/core.css">
+<link rel="stylesheet" href="https://ghcdn.rawgit.org/dezui/DezUI/stable/css/core.min.css">
 ```
 
 ## License
