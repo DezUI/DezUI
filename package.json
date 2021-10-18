@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com/dezuhan/dezui.git"
+		"url": "git+ssh://git@github.com/dezui/dezui.git"
 	},
 	"keywords": [
 		"css",
@@ -20,6 +20,6 @@
 		"contributors": []
 	},
 	"license": "MIT",
-	"homepage": "https://dezuhan.github.io/dezui",
-	"bugs": "https://github.com/dezuhan/dezui/issues"
+	"homepage": "https://dezui.netlify.app",
+	"bugs": "https://github.com/dezui/dezui/issues"
 }
