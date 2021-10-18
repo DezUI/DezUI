@@ -31,9 +31,13 @@ DezUI/
 <link rel="stylesheet" href="/css/core.css">
 <link rel="stylesheet" href="/css/core.min.css">
 ```
-### Clone the repo:
+### Clone the repo
 ```bash
 git clone https://github.com/dezui/dezui.git
+```
+### Install package
+```bash
+npm i dezui
 ```
 ### Install from CDN
 ##### CDN RawGit
