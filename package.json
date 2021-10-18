@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/dezui/dezui.git"
+    "url": "git+https://git@github.com/dezui/dezui.git"
   },
   "keywords": [
     "css",
