@@ -1,25 +1,24 @@
 {
-	"name": "dezui",
-	"version": "1.0.0",
-	"description": "CSS Framework",
-	"main": "css/core.css",
-	"scripts": {
-		"start": "sass -w --no-source-map scss:css"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+ssh://git@github.com/dezui/dezui.git"
-	},
-	"keywords": [
-		"css",
-		"framework",
-		"open-source"
-	],
-	"author": {
-		"founder": "Dzuhan Ramadhan <github@dezuhan>",
-		"contributors": []
-	},
-	"license": "MIT",
-	"homepage": "https://dezui.netlify.app",
-	"bugs": "https://github.com/dezui/dezui/issues"
+  "name": "@dezui/dezui",
+  "version": "1.0.0",
+  "description": "CSS Framework",
+  "main": "css/core.css",
+  "scripts": {
+    "start": "sass -w --no-source-map scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dezui/dezui.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "open-source"
+  ],
+  "author": "Dzuhan Ramadhan <github@dezuhan>",
+  "license": "MIT",
+  "homepage": "https://dezui.netlify.app",
+  "bugs": {
+    "url": "https://github.com/dezui/dezui/issues"
+  }
 }
