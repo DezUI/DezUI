@@ -1,10 +1,11 @@
 {
   "name": "dezui",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CSS Framework",
-  "main": "css/core.css",
+  "main": "css/core.min.css",
   "scripts": {
-    "start": "sass -w --no-source-map scss:css"
+    "start": "sass -w --no-source-map scss:css",
+    "sass-min": "sass -w --no-source-map --style=compressed scss/core.scss:css/core.min.css"
   },
   "repository": {
     "type": "git",

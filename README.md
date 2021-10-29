@@ -42,8 +42,8 @@ npm i dezui
 ### Install from CDN
 ##### CDN RawGit
 ```html
-<link rel="stylesheet" href="https://ghcdn.rawgit.org/dezui/DezUI/stable/css/core.css">
-<link rel="stylesheet" href="https://ghcdn.rawgit.org/dezui/DezUI/stable/css/core.min.css">
+<link rel="stylesheet" href="https://unpkg.com/dezui@1.0.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dezui@1.0.0">
 ```
 
 ## License
