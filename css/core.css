@@ -19,76 +19,6 @@ body {
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "DM Serif Display";
-  margin: 0 0 1rem 0;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 1.4;
-}
-
-h1,
-.h1 {
-  font-size: 4rem;
-}
-
-h2,
-.h2 {
-  font-size: 3.5rem;
-}
-
-h3,
-.h3 {
-  font-size: 3rem;
-}
-
-h4,
-.h4 {
-  font-size: 2.5rem;
-}
-
-h5,
-.h5 {
-  font-size: 2rem;
-}
-
-h6,
-.h6 {
-  font-size: 1.5rem;
-}
-
-a {
-  color: #1d8fcc;
-  text-decoration: none !important;
-}
-
-p,
-a,
-span,
-div {
-  font-size: 0.9rem;
-  font-weight: 300;
-  margin: 0;
-  line-height: 1.6;
-}
-
-strong {
-  font-weight: 600;
-}
-
-i,
-em,
-u,
-b {
-  font-family: inherit;
-  font-weight: inherit;
-}
-
 .raleway {
   font-family: "Raleway";
   font-weight: 500;
@@ -125,7 +55,7 @@ b {
 }
 
 .source-code-pro {
-  font-family: "Source Code Pro";
+  font-family: "SourceCodePro";
 }
 .source-code-pro-200 {
   font-weight: 200;
@@ -177,6 +107,80 @@ b {
   font-style: italic;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display";
+  margin: 0 0 1rem 0;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+
+h1,
+.h1 {
+  font-size: 4rem;
+}
+
+h2,
+.h2 {
+  font-size: 3.5rem;
+}
+
+h3,
+.h3 {
+  font-size: 3rem;
+}
+
+h4,
+.h4 {
+  font-size: 2.5rem;
+}
+
+h5,
+.h5 {
+  font-size: 2rem;
+}
+
+h6,
+.h6 {
+  font-size: 1.5rem;
+}
+
+a {
+  color: #349cd8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline !important;
+}
+
+p,
+a,
+span,
+div {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1.6;
+}
+
+strong,
+b {
+  font-weight: 600;
+}
+
+i,
+em,
+u,
+b {
+  font-family: inherit;
+  font-weight: inherit;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -223,7 +227,7 @@ b {
 }
 
 .col-margin {
-  margin: 0 10px !important;
+  margin: 10px !important;
 }
 
 .col-1 {
@@ -294,22 +298,26 @@ nav section.navbar-section {
   flex: 1;
   justify-content: center;
   gap: 20px;
-  color: #252336 !important;
-  align-items: center !important;
+  color: #000;
+  align-items: center;
 }
 nav section.navbar-section a {
   display: flex;
+  color: #252336;
+}
+nav section.navbar-section a:hover {
+  text-decoration: none !important;
 }
 nav section.navbar-section .navbar-logo {
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   font-family: "MD Serif Display" !important;
-  color: #252336;
+  color: #000;
   font-weight: 600;
-  gap: 20px;
+  gap: 10px;
 }
 nav section.navbar-section .navbar-logo img {
-  height: 3rem;
+  height: 2.5rem;
 }
 nav section.navbar-section:last-child {
   justify-content: right;
@@ -335,6 +343,70 @@ nav section.navbar-section:first-child {
 
 .bg-primary {
   background: #252336 !important;
+}
+
+.text-secondary {
+  color: #ed4e1e !important;
+}
+
+.bg-secondary {
+  background: #ed4e1e !important;
+}
+
+.text-info {
+  color: #349cd8 !important;
+}
+
+.bg-info {
+  background: #349cd8 !important;
+}
+
+.text-success {
+  color: #2ee87b !important;
+}
+
+.bg-success {
+  background: #2ee87b !important;
+}
+
+.text-warning {
+  color: #ffdb28 !important;
+}
+
+.bg-warning {
+  background: #ffdb28 !important;
+}
+
+.text-danger {
+  color: #ea4848 !important;
+}
+
+.bg-danger {
+  background: #ea4848 !important;
+}
+
+.text-light {
+  color: #fafafa !important;
+}
+
+.bg-light {
+  background: #fafafa !important;
+}
+
+.text-dark {
+  color: #444444 !important;
+}
+
+.bg-dark {
+  background: #444444 !important;
+}
+
+.text-gray {
+  color: #dddddd !important;
+}
+
+.bg-gray {
+  background: #dddddd !important;
 }
 
 .text-white {
@@ -400,28 +472,36 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-table thead tr th, table thead tr td, table tbody tr th, table tbody tr td {
+table thead tr th, table thead tr td, table tbody tr th, table tbody tr td, table tfoot tr th, table tfoot tr td {
   outline: 0;
   margin: 0 !important;
   text-align: left;
   padding: 0.5rem;
-  border-bottom: 1px solid #e9e8f0 !important;
+  border-bottom: 1px solid #bfbfbf !important;
 }
-table thead tr th:first-child, table thead tr td:first-child, table tbody tr th:first-child, table tbody tr td:first-child {
+table thead tr th:first-child, table thead tr td:first-child, table tbody tr th:first-child, table tbody tr td:first-child, table tfoot tr th:first-child, table tfoot tr td:first-child {
   padding-left: 5px;
 }
-table thead tr th:last-child, table thead tr td:last-child, table tbody tr th:last-child, table tbody tr td:last-child {
+table thead tr th:last-child, table thead tr td:last-child, table tbody tr th:last-child, table tbody tr td:last-child, table tfoot tr th:last-child, table tfoot tr td:last-child {
   padding-right: 5px;
 }
 
-br {
-  margin: 20px 0 !important;
+.card {
+  border: 1px solid #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 300px;
+  padding: 1rem;
 }
 
 hr {
   margin: 50px 0 !important;
   border: 0;
-  border-top: 1px solid #e9e8f0;
+  border-top: 1px solid #bfbfbf;
 }
 hr.dotted {
   background: url("../assets/dotted.svg") center no-repeat;
@@ -504,7 +584,7 @@ select {
   padding: 5px 10px;
   margin: 0;
   min-height: 40px;
-  border: 1px solid #9e9abe;
+  border: 1px solid #cccccc;
   border-radius: 0;
   outline: none;
   width: 100%;
@@ -543,7 +623,7 @@ input[type=password]:hover,
 textarea:hover,
 option:hover,
 select:hover {
-  border-color: #252336;
+  border-color: #000;
 }
 input[type=email]:focus,
 input[type=number]:focus,
@@ -555,12 +635,7 @@ input[type=password]:focus,
 textarea:focus,
 option:focus,
 select:focus {
-  border-color: #252336;
-}
-
-option:hover {
-  background-color: #252336 !important;
-  color: #fff;
+  border-color: #000;
 }
 
 label {
@@ -588,7 +663,7 @@ button,
   width: auto;
   height: 40px;
   padding: 0 30px;
-  color: #252336;
+  color: #000;
   text-align: center;
   font-size: 0.8rem;
   font-weight: 600;
@@ -598,22 +673,9 @@ button,
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border: 1px solid #9e9abe;
+  border: 1px solid #cccccc;
   cursor: pointer;
   box-sizing: border-box;
-  margin: 0 5px;
-}
-input[type=button]:first-child,
-input[type=submit]:first-child,
-button:first-child,
-.btn:first-child {
-  margin-left: 0 !important;
-}
-input[type=button]:last-child,
-input[type=submit]:last-child,
-button:last-child,
-.btn:last-child {
-  margin-right: 0 !important;
 }
 input[type=button]:hover, input[type=button]:focus,
 input[type=submit]:hover,
@@ -622,15 +684,15 @@ button:hover,
 button:focus,
 .btn:hover,
 .btn:focus {
-  border-color: #252336;
-  color: #252336;
+  text-decoration: none !important;
+  border-color: #000;
 }
 input[type=button].btn-fill,
 input[type=submit].btn-fill,
 button.btn-fill,
 .btn.btn-fill {
-  background: #252336;
-  border-color: #252336;
+  background: #000;
+  border-color: #000;
   color: #fff;
 }
 input[type=button].btn-fill:hover, input[type=button].btn-fill:focus,
@@ -640,7 +702,7 @@ button.btn-fill:hover,
 button.btn-fill:focus,
 .btn.btn-fill:hover,
 .btn.btn-fill:focus {
-  background: #1a1927;
+  background: #000;
 }
 
 .hero {
@@ -663,17 +725,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-table thead tr th, table thead tr td, table tbody tr th, table tbody tr td {
+table thead tr th, table thead tr td, table tbody tr th, table tbody tr td, table tfoot tr th, table tfoot tr td {
   outline: 0;
   margin: 0 !important;
   text-align: left;
   padding: 0.5rem;
-  border-bottom: 1px solid #e9e8f0 !important;
+  border-bottom: 1px solid #bfbfbf !important;
 }
-table thead tr th:first-child, table thead tr td:first-child, table tbody tr th:first-child, table tbody tr td:first-child {
+table thead tr th:first-child, table thead tr td:first-child, table tbody tr th:first-child, table tbody tr td:first-child, table tfoot tr th:first-child, table tfoot tr td:first-child {
   padding-left: 5px;
 }
-table thead tr th:last-child, table thead tr td:last-child, table tbody tr th:last-child, table tbody tr td:last-child {
+table thead tr th:last-child, table thead tr td:last-child, table tbody tr th:last-child, table tbody tr td:last-child, table tfoot tr th:last-child, table tfoot tr td:last-child {
   padding-right: 5px;
 }
 
