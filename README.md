@@ -10,7 +10,7 @@
 DezUI is a lightweight, minimalist & elegant UI to start a project with a minimalist and elegant design.
 Checkout https://dezui.netlify.app for documentation and details
 
-[![](assets/images/dezui-web-preview.png)](https://dezui.github.io/dezui)
+[![](assets/images/dezui-web-preview.png)](https://dezui.github.io/dezui) [![Join the chat at https://gitter.im/DezUI/General](https://badges.gitter.im/DezUI/General.svg)](https://gitter.im/DezUI/General?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## What's in the download?
 
