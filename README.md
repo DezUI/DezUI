@@ -18,7 +18,8 @@ Checkout https://dezui.netlify.app for documentation and details
 DezUI/
 ├── index.html
 ├── css/
-│   └── core.css
+│   ├── core.css
+│   └── core.min.css
 └── assets/
     └── dotted.svg
 ```
@@ -37,13 +38,12 @@ git clone https://github.com/dezui/dezui.git
 ```
 ### Install package
 ```bash
-npm i dezui
+npm i dezui@latest
 ```
 ### Install from CDN
-##### CDN RawGit
 ```html
-<link rel="stylesheet" href="https://unpkg.com/dezui@1.0.0">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dezui@1.0.0">
+<link rel="stylesheet" href="https://unpkg.com/dezui@latest">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dezui@latest">
 ```
 
 ## License
