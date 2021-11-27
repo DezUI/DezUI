@@ -1,15 +1,14 @@
 
 
 <a href="https://dezui.github.io/dezui" target="_blank" style="font-size: 2rem;">
-	<img src="https://raw.githubusercontent.com/dezui/DezUI/stable/assets/main.svg" alt="" style="height: 3.5rem !important;">
-	<img src="assets/main.svg" alt="" style="height: 3.5rem !important;">
+	<img src="https://dezui.netlify.app/assets/main.svg" alt="" style="height: 3.5rem !important;">
 </a>
 
 # DezUI
 
 DezUI is a build fast, minimalistic & elegant css framework for starting projects with a minimalist and elegant design and easy to kickstart development of webapps and sites.
 
-[![](assets/images/dezui-web-preview.png)](https://dezui.github.io/dezui)
+[![](https://dezuhan.github.io/portfolio/galleries/dezui/dezui-front-page.png)](https://dezui.github.io/dezui)
 
 ## What's in the download?
 
