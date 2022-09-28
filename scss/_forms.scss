@@ -1,0 +1,55 @@
+form {
+	@include flexbox();
+	flex-direction: column;
+	grid-gap: 20px !important;
+	box-sizing: border-box;
+}
+
+input[type=email],
+input[type=number],
+input[type=search],
+input[type=text],
+input[type=tel],
+input[type=url],
+input[type=password],
+textarea,
+option,
+select {
+	font-family: "Raleway", sans-serif;
+	line-height: 1.6;
+	font-size: 0.8rem !important;
+	padding: 5px 10px;
+	margin: 0;
+	min-height: 40px;
+	border: 1px solid lighten($black, 75%);
+	border-radius: 0;
+	outline: none;
+	width: 100%;
+	&:first-child {
+		margin-left: 0 !important;
+	}
+	&:last-child {
+		margin-right: 0 !important;
+	}
+	&:hover,
+	&:focus {
+		border-color: $black;
+	}
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+textarea {
+	box-sizing: border-box;
+	min-width: 100%;
+	min-height: 100px;
+	resize: vertical;
+}

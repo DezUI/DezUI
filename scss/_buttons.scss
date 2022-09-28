@@ -1,0 +1,31 @@
+input[type=button],
+input[type=submit],
+button,
+.btn {
+	display: inline-block !important;
+	width: auto;
+	height: 40px;
+	padding: 0 30px;
+	color: $black;
+	text-align: center;
+	font-size: 0.8rem;
+	font-weight: 600;
+	line-height: 40px;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: transparent;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+	box-sizing: border-box;
+	&:hover, &:focus {
+		text-decoration: none !important;
+		border-color: $black;
+	}
+	&.btn-fill {
+		background: $black;
+		border-color: $black;
+		color: #fff;
+	}
+}

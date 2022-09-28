@@ -1,0 +1,34 @@
+code {
+	padding: .1rem .3rem;
+	white-space: nowrap;
+	background: $white;
+	border: 1px solid $gray;
+	overflow: auto;
+	border-radius: 0;
+	font-size: .8rem !important;
+	ol, ul {
+		margin: 0;
+		list-style-position: outside;
+		li {
+			margin: 0;
+		}
+	}
+	ol {
+		::marker {
+			color: $gray;
+		}
+	}
+}
+
+pre > code {
+	display: block;
+	padding: 1rem 2rem;
+	white-space: pre;
+	border-radius: 0;
+	overflow: auto;
+}
+
+pre {
+	line-height: 1.6;
+	font-family: "Source Code Pro";
+}

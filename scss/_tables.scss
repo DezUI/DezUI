@@ -1,0 +1,21 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  thead, tbody,tfoot {
+    tr {
+      th, td {
+        outline: 0;
+        margin: 0 !important;
+        text-align: left;
+        padding: 0.5rem;
+        border-bottom: 1px solid #bfbfbf !important;
+        &:first-child {
+          padding-left: 5px;
+        }
+        &:last-child {
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+}

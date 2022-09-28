@@ -1,0 +1,119 @@
+
+// Width
+.width-full {
+  width: 100%;
+  &-vw {
+    width: 100vw;
+  }
+}
+
+.p {
+  padding: 1rem;
+  &-0 {
+    padding: 0;
+  }
+  &-t {
+    padding-top: 1rem;
+  }
+  &-b {
+    padding-bottom: 1rem;
+  }
+  &-l {
+    padding-left: 1rem;
+  }
+  &-r {
+    padding-right: 1rem;
+  }
+  &-tb {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  &-lr {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  &-tb-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  &-lr-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.m {
+  margin: 1rem;
+  &-0 {
+    margin: 0;
+  }
+  &-t {
+    margin-top: 1rem;
+  }
+  &-b {
+    margin-bottom: 1rem;
+  }
+  &-l {
+    margin-left: 1rem;
+  }
+  &-r {
+    margin-right: 1rem;
+  }
+  &-tb {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  &-lr {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  &-tb-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  &-lr-0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.br {
+  &-curve {
+    border-radius: 8px !important;
+  }
+  &-round {
+    border-radius: 20px !important;
+  }
+}
+
+@each $key, $val in $breakpoints {
+  .width-#{$key} {
+    width: $val;
+  }
+}
+
+// Allignment
+@each $key, $val in $text-align {
+  .text-align-#{$key} {
+    text-align: $val;
+  }
+}
+
+@each $key, $val in $align-items {
+  .align-items-#{$key} {
+    align-items: $val !important;
+  }
+}
+
+@each $key, $val in $justify-content {
+  .justify-content-#{$key} {
+    justify-content: $val !important;
+  }
+}
+
+@each $key, $val in $position {
+  .position-#{$key} {
+    position: $val;
+    z-index: 999999;
+  }
+}

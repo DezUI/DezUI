@@ -1,0 +1,14 @@
+.bd {
+    &-thin {
+        border-width: thin !important;
+    }
+    &-medium {
+        border-width: medium !important;
+    }
+    &-thick {
+        border-width: thick !important;
+    }
+    &-1 {
+        border-width: 1px;
+    }
+}

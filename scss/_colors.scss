@@ -1,0 +1,23 @@
+
+@each $key, $val in $color-themes {
+	// Text color
+	.text-#{$key} {
+		color: $val !important;
+	}
+
+	// Background color
+	.bg-#{$key} {
+		background: $val !important;
+	}
+	.bg-none {
+		background: none;
+	}
+
+	// Border color
+	.bd-#{$key} {
+		border-color: $val !important;
+	}
+	.bd-none {
+		border: none;
+	}
+}

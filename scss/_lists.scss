@@ -1,0 +1,29 @@
+ul {
+	ul {
+		margin: 0.5rem 0 0.5rem 0;
+		font-size: 90%;
+	}
+	ol {
+		margin: 0.5rem 0 0.5rem 0;
+		font-size: 90%;
+	}
+	li {
+		list-style: circle outside;
+		margin-bottom: 0.3rem;
+	}
+}
+
+ol {
+	ul {
+		margin: 0.5rem 0 0.5rem 0;
+		font-size: 90%;
+	}
+	ol {
+		margin: 0.5rem 0 0.5rem 0;
+		font-size: 90%;
+	}
+	li {
+		list-style: decimal outside;
+		margin-bottom: 0.3rem;
+	}
+}

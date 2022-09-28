@@ -1,0 +1,42 @@
+
+.flex {
+	@include flexbox();
+	&.column {
+		flex-direction: column !important;
+	}
+	&.row {
+		flex-direction: row;
+	}
+	&.wrap {
+		flex-wrap: wrap !important;
+	}
+}
+
+
+.col {
+	flex: 1;
+	box-sizing: border-box;
+}
+
+@for $col from 1 through 11 {
+	.col-#{$col} {
+		flex: $col;
+	}
+}
+
+.col-margin {
+	&-row {
+		margin: 0 1rem;
+	}
+	&-col {
+		margin: 1rem 0;
+	}
+}
+
+@media (max-width: $phablet) {
+	.flex, .flex.row {
+		&.responsive {
+			flex-direction: column !important;
+		}
+	}
+}

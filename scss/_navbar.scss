@@ -1,0 +1,53 @@
+nav {
+	@include flexbox();
+	padding: 1rem !important;
+	grid-gap: 20px;
+	section {
+		align-items: center;
+		@include flexbox();
+	}
+	section.navbar-section {
+		flex: 1;
+		justify-content: center;
+		gap: 20px;
+		color: #000;
+		align-items: center;
+		a {
+			display: flex;
+			color: #252336;
+			&:hover {
+				text-decoration: none !important;
+			}
+		}
+		.navbar-logo {
+			font-size: 1.5rem;
+			display: flex;
+			font-family: "MD Serif Display" !important;
+			color: #000;
+			font-weight: 600;
+			gap: 10px;
+			img {
+				height: 2.5rem;
+			}
+		}
+		&:last-child {
+			justify-content: right;
+		}
+		&:first-child {
+			justify-content: left;
+		}
+	}
+}
+@media screen and (max-width: 600px) {
+	footer {
+		nav {
+			section.list {
+				@include flexbox();
+				grid-gap: 10px;
+				flex-wrap: wrap;
+				justify-content: center;
+				text-align: center !important;
+			}
+		}
+	}
+}

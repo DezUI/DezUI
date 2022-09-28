@@ -1,0 +1,12 @@
+hr {
+	margin: 2.5rem 0 !important;
+	border: 0;
+	border-top: 1px solid #bfbfbf;
+}
+
+hr.dotted {
+	background: url("../assets/dotted.png") center no-repeat;
+	background-size: contain;
+	height: 5px;
+	border: none;
+}

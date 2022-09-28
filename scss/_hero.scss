@@ -1,0 +1,13 @@
+
+.hero {
+	padding: 50px 0;
+	@include flexbox();
+	flex-direction: column;
+	box-sizing: border-box;
+	&.hero-full {
+		height: 100vh;
+	}
+	&.hero-p-0 {
+		padding: 0;
+	}
+}

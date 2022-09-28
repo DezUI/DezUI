@@ -1,0 +1,14 @@
+
+.container {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 1rem;
+	box-sizing: border-box;
+}
+
+@each $key, $val in $breakpoints {
+	.container-#{$key} {
+		max-width: $val;
+	}
+}

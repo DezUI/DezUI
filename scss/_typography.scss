@@ -1,0 +1,67 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	font-family: "DM Serif Display", serif;
+	margin: 0 0 1rem 0;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 1.4;
+}
+
+a {
+	color: #349cd8;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline !important;
+	}
+}
+
+a,
+p,
+div,
+span
+{
+	font-size: 0.9rem;
+	font-weight: 300;
+	margin: 0;
+	line-height: 1.6;
+}
+
+strong {
+	font-weight: 600;
+}
+
+b {
+	font-weight: 600;
+}
+
+i,
+em,
+b,
+u {
+	font-family: inherit;
+	font-weight: inherit;
+}
+
+@each $key, $val in $heading {
+	#{$key} {
+		font-size: #{$val};
+	}
+}
+
+code,
+ul,
+ol,
+li,
+span,
+div,
+p,
+a {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
